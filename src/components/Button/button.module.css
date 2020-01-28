@@ -1,0 +1,28 @@
+.btn {
+  margin-left: 5px;
+  padding: 8px 15px;
+
+  color: #ffffff;
+
+  border: 1px solid #ececec;
+  border-radius: 30px;
+  outline: none;
+
+  background-color: #61d287;
+
+  cursor: pointer;
+
+  transition: all 150ms;
+}
+
+.btn:hover {
+  border: 1px solid #b4b4b4;
+
+  background-color: #22b654;
+}
+
+.btn:focus {
+  border: 1px solid #b4b4b4;
+
+  background-color: #22b654;
+}

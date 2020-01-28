@@ -1,0 +1,17 @@
+.textInput {
+  padding: 8px 15px;
+
+  border: 1px solid #ececec;
+  border-radius: 30px;
+  outline: none;
+
+  background-color: #ffffff;
+}
+
+.textInput:hover {
+  border: 1px solid #b4b4b4;
+}
+
+.textInput:focus {
+  border: 1px solid #919191;
+}

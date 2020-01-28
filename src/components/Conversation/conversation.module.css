@@ -1,0 +1,17 @@
+.conversation {
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+.messageItem {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.messageItem:first-child {
+  margin-top: 20px;
+}
+
+.messageItem:last-child {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.conversationWrapper {
+  flex: 1;
+
+  overflow: hidden;
+}
+
+.conversationWrapper > * {
+  height: 100%;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 600px) {
+  .conversationWrapper {
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .conversationWrapper {
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .conversationWrapper {
+    width: 70%;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .conversationWrapper {
+    width: 60%;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
